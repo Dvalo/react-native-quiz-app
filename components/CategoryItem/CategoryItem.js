@@ -11,7 +11,7 @@ function CategoryItem(props) {
     <View style={styles.item}>
       <Pressable
         onPress={() => {
-          navigation.navigate("Quiz", {name: name})
+          navigation.navigate("Quiz", {name: name, id: id})
         }}
       >
         <ImageBackground
